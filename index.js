@@ -6,3 +6,11 @@ function mapToNegativize(arr) {
   }
   return r
 }
+
+function mapToNoChange(src) {
+  let r = []
+  for (let i = 0; i < src.length; i++ ) {
+    r.push(src[i])
+  }
+  return r
+}
